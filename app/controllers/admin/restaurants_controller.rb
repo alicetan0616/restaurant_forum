@@ -21,6 +21,7 @@ class Admin::RestaurantsController < Admin::BaseController
     else
       flash.now[:alert] = "restaurant was failed to create"
       render :new
+    end
   end
 
   def show
